@@ -1,9 +1,9 @@
 <div align="center">
-<img src="https://telegra.ph/file/9b873234a9cc47a5916ae.jpg" alt="NinoBot" width="500" />
+<img src="https://telegra.ph/file/2a2afd2190efa56d8fbf1.jpg" alt="FiqqOfc" width="500" />
 
-# NinoBot
+# FiqqOfc
 
-> NinoBot is a multipurpose WhatsApp bot using Adiwajshing-Baileys library!
+> LemonBot is a multipurpose WhatsApp bot using Adiwajshing-Baileys library!
 >
 >
 
@@ -108,3 +108,4 @@ webpmux -version
 * [`Slavyan`](https://github.com/SlavyanDesu)
 * [`Galang`](https://github.com/Zobin33)
 * [`Franky`](https://github.com/Frankysolo)
+* [`FiqqOfc`](https://github.com/SAIPHS)
