@@ -14,6 +14,7 @@
   <a href="https://github.com/zennn08"><img src="https://avatars.githubusercontent.com/u/75623219?s=400&u=8934104bf58533111f2f4cef7be5d72ebb79d75c&v=4" height="128" width="128" /></a>
   <a href="https://github.com/SlavyanDesu"><img src="https://avatars3.githubusercontent.com/u/28254882?s=400&u=29439908cd661d11443391cb74f5b07267b71117&v=4" height="128" width="128" /></a>
   <a href="https://github.com/Zobin33"><img src="https://avatars.githubusercontent.com/u/48700650?s=400&u=365f732cd3fc09ce75f6556715a00386005db57c&v=4" height="128" width="128" /></a>
+   <a href="https://github.com/SAIPHS"><img src="https://avatars.githubusercontent.com/u/54147619?v=4" height="128" width="128" /></a>
 </p>
 
 <p align="center">
@@ -49,7 +50,7 @@
 # Instalasi
 ## For Windows
 ```bash
-git clone https://github.com/Nino-chan02/NinoWangy
+git clone https://github.com/SAIPHS/fdnbot
 cd NinoWangy
 npm install
 node main
@@ -59,7 +60,7 @@ node main
 termux-setup-storage
 pkg update && pkg upgrade
 pkg install nodejs git ffmpeg libwebp 
-git clone https://github.com/Nino-chan02/NinoWangy
+git clone https://github.com/SAIPHS/fdnbot
 cd NinoWangy
 npm install
 node main
@@ -97,7 +98,7 @@ webpmux -version
 ```
 
 # Features
-- Cek [disini](https://github.com/Nino-chan02/NinoWangyy/blob/main/message/help.js)
+- Cek [disini](https://github.com/SAIPHS/fdnbot/blob/main/message/help.js)
 
 # MAKASIH LORT
 * [`Baileys`](https://github.com/adiwajshing/Baileys)
