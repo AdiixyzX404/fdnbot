@@ -823,11 +823,11 @@ module.exports = ikyy = async (ikyy, mek) => {
            
         case 'owner':
         case 'creator':
-               sendKontak(from, `${owner}`, `${ownerName}`, 'Sibukk!!')
+               sendKontak(from, `${owner}`, `${ownerName}`, 'Yo!')
                await sleep(1000)
                txtt =`Hai Kak ${pushname}\nItu Ownerku, Mau tau soal apa ya?`
 
-               buttons = [{buttonId: '!groupbot',buttonText:{displayText: 'GcBot'},type:1},{buttonId:'!infoig',buttonText:{displayText:'InfoOwner'},type:1},{buttonId:`${prefix}sewabot`,buttonText:{displayText:'SewaBot'},type:1}]
+               buttons = [{buttonId: '!groupbot',buttonText:{displayText: 'Gc Bot'},type:1},{buttonId:'!infoig',buttonText:{displayText:'Info Owner'},type:1},{buttonId:`${prefix}sewabot`,buttonText:{displayText:'Sewa Bot'},type:1}]
 
                buttonsMessage = {
                contentText: `${txtt}`,
@@ -856,13 +856,11 @@ ikyy.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
   
                menu =`*❒ 「 𝙇𝙚𝙢𝙤𝙣𝘽𝙊𝙏 」*
 
+*➪ _Base : Ikyy/Fax_*
+*➪ _Recode : Itsuki_*
 *➪ _User : ${pushname}_*
-*➪ _Nama Bot :_ 𝙇𝙚𝙢𝙤𝙣𝘽𝙊𝙏*
-*➪ _Creator :_ 𝘿𝙚𝙫𝙁𝙞𝙦𝙦*
-*➪ _Nama Owner : CapiqGanz_*
-*➪ _Nomor Owner : wa.me/601151102125_*
-*➪ _Prefix : 「 MULTI PREFIX 」_*
-*➪ _Group V1 : https://bit.ly/3kFKTeB_*
+*➪ _Nama Bot : Itsuki Botz_*
+*➪ _Creator : Itsuki_*
 *➪ _WIB : ${timeWib}_*
 *➪ _WITA : ${timeWita}_*
 *➪ _WIT : ${timeWit}_*
@@ -874,7 +872,7 @@ ikyy.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
 
                buttonsMessage = {
                contentText: `${menu}`,
-               footerText: '  ❒ 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬 ❒\n🌹 _Menu Group_\n🌹 _Wibu Menu_\n🌹 _Sticker Menu_\n🌹 _Owner Menu_\n🌹 _Game Menu_\n🌹 _Fun Menu_\n🌹 _Download Menu_\n🌹 _Info Menu_\n🌹 _Other Menu_\n🌹 _Owner Bot_\n🌹 _Official Group_\n🌹 _Sewa Bot_\n\n  ❒ 𝐏𝐫𝐞𝐟𝐢𝐱 ❒\n🌹 _Multi Prefix_\n\n  ❒ 𝐍𝐨𝐭𝐞 ❒\n🌹 _Jika Pkai Wa Gb_\n   _silahkan ketik #command_\n\n\n© Creator 𝘿𝙚𝙫𝙁𝙞𝙦𝙦', imageMessage: imageMsg,
+               footerText: '🌹 _Jika Pkai Wa Gb_\n   _silahkan ketik #command_\n\n© Creator Itsuki', imageMessage: imageMsg,
                buttons: buttons,
                headerType: 4
 }
@@ -901,7 +899,7 @@ ikyy.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
                    }
                         list.push(yy)
            }
-               listmsg(from, `*_${week} ${weton} ${timeWib}_*`, `*_Halo Kak ${pushname},Siahkan Dipilih Menunya_*\n\n*_Note :_*\n*_Jika Ada Fitur Yang Error_*\n*_Silahkan Hubungi Owner Kami_*\n*_Atau Ketik .owner_*`, list)
+               listmsg(from, `*_${week} ${weton} ${timeWib}_*`, `*_Halo Kak ${pushname},Silahkan Dipilih Menunya_*`, list)
                break
         case 'antilink':
         
@@ -4563,7 +4561,7 @@ return reply(require('util').format(evaluate))
 }
 }
 if (!isGroup && isCmd && !mek.key.fromMe){
-teks = `Maaf @${senderr.split('@')[0]}, command ${prefix + command} tidak ada dalam menu`
+teks = `*_Command ${prefix + command} tidak ditemukan!_*`
 ikyy.sendMessage(from, {text:teks, jpegThumbnail:fs.readFileSync('./media/wpmobile.png')}, 'extendedTextMessage', {sendEphemeral:true, quoted:mek, contextInfo:{ forwardingScore:508, isForwarded:true, mentionedJid:[senderr]}})
 }
 	} 
